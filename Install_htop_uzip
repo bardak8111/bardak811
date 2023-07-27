@@ -1,0 +1,13 @@
+---
+- name: Test SURVEY
+  hosts: all
+#  gather_facts: yes
+  become: yes
+  tasks:
+
+  - name: install pack
+    apt:
+      name:
+        - htop
+        - unzip
+      update_cache: yes
