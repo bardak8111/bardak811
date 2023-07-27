@@ -1,0 +1,10 @@
+---
+- name: Test SURVEY
+  hosts: all
+#  gather_facts: yes
+#  become: yes
+
+  tasks:
+
+  - name: ping
+    ping:
