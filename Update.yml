@@ -2,7 +2,7 @@
 - name: Test SURVEY
   hosts: all
 #  gather_facts: yes
-#  become: yes
+  become: yes
 #  become_user: root
 #  become: true
 #  become_method: enable
