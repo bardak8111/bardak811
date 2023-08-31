@@ -1,6 +1,7 @@
 ---
 - name: windows rolling update
   hosts: all
+  become: false
   
   tasks:
     - name: Install all critical and security updates
