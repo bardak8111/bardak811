@@ -6,9 +6,6 @@
 #  become_user: root
 #  become: true
 #  become_method: enable
-##  become: true
-##  become_method: su
-##  become_user: root
   tasks:
 
   - name: Repo Update
