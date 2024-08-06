@@ -1,0 +1,12 @@
+---
+- name: Test mc
+  hosts: all
+#  gather_facts: yes
+  become: yes
+  tasks:
+
+  - name: install pack
+    apt:
+      name:
+        - mc
+      update_cache: yes
